@@ -1,0 +1,80 @@
+{
+    "groups": [
+        {
+            "name": "Group 1",
+            "sshHosts": [
+                {
+                    "name": "node3",
+                    "ip": "192.168.20.138",
+                    "port": 22,
+                    "username": "root",
+                    "password": "Firewall#121"
+                },
+                {
+                    "name": "Host 2",
+                    "ip": "192.168.1.101",
+                    "port": 22,
+                    "username": "user2",
+                    "password": "password2"
+                }
+            ]
+        },
+        {
+            "name": "Group 2",
+            "sshHosts": [
+                {
+                    "name": "Host 3",
+                    "ip": "192.168.1.102",
+                    "port": 22,
+                    "username": "user3",
+                    "password": "password3"
+                },
+                {
+                    "name": "Host 4",
+                    "ip": "192.168.1.103",
+                    "port": 22,
+                    "username": "user4",
+                    "password": "password4"
+                }
+            ]
+        },
+        {
+            "name": "Group 3",
+            "sshHosts": [
+                {
+                    "name": "Host 5",
+                    "ip": "192.168.1.104",
+                    "port": 22,
+                    "username": "user5",
+                    "password": "password5"
+                },
+                {
+                    "name": "Host 6",
+                    "ip": "192.168.1.105",
+                    "port": 22,
+                    "username": "user6",
+                    "password": "password6"
+                }
+            ]
+        },
+        {
+            "name": "Group 4",
+            "sshHosts": [
+                {
+                    "name": "Host 7",
+                    "ip": "192.168.1.106",
+                    "port": 22,
+                    "username": "user7",
+                    "password": "password7"
+                },
+                {
+                    "name": "Host 8",
+                    "ip": "192.168.1.107",
+                    "port": 22,
+                    "username": "user8",
+                    "password": "password8"
+                }
+            ]
+        }
+    ]
+}
