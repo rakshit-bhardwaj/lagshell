@@ -1,0 +1,116 @@
+/* styles/global.css */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+html,body {
+  font-family: 'Ubuntu', sans-serif;
+  background: transparent;
+}
+
+
+.Heading {
+  color: aliceblue;
+  font-family: 'Ubuntu';
+  font-size: large;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+body {
+  background: url("../assets/blurback.jpg") center/cover;
+  background: linear-gradient(135deg, #111111, #151515, #202020);
+  background-attachment: fixed;
+  margin: 0;
+  font: 1em/1.4 Sans-serif;
+  color: #fff;
+}
+
+.navbar {
+  overflow: hidden;
+  background: linear-gradient(135deg, #111111, #151515, #202020); /* Subtle background color */
+  font-family: 'Ubuntu';
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  padding: 4px 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease; /* Ease-in-out animation */
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 14px;
+  border: none;
+  outline: none;
+  color: white;
+  margin: 0;
+  padding: -2px -2px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+  transition: background-color 0.3s ease; /* Ease-in-out animation */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgba(0, 0, 0, 0.3); /* Transparent red on hover */
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(249, 249, 249, 0.9); /* Subtle background color */
+  min-width: 80px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  backdrop-filter: blur(15px);
+  transition: background-color 0.3s ease; 
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  font-size: 14px;
+  float: none;
+  color: black;
+  padding: 2px 6px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+   /* Ease-in-out animation */
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: rgba(173, 173, 173, 0.2); /* Transparent grey on hover */
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
